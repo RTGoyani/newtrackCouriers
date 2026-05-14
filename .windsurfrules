@@ -1,0 +1,18 @@
+# Project Rules
+
+When writing or editing code in this project, strictly follow these rules:
+
+## 1. CSS Sizing
+- ALWAYS use `rem` for sizing (e.g., margins, padding, font-size, width, height). Do not use `px`.
+
+## 2. CSS Styling Approach
+- ALWAYS use CSS Modules (`.module.css`) for component-specific styling.
+- ALWAYS write Custom CSS. Do not use utility-class frameworks (like Tailwind CSS, Bootstrap, etc.) unless explicitly instructed otherwise.
+
+## 3. Colors and Typography
+- ALWAYS use the CSS variables defined in `/src/assets/css/index.css` for any colors and font-families. 
+- Example: `color: var(--color-primary);` or `font-family: var(--font-primary);`.
+
+## 4. General
+- Maintain a clean and modular architecture.
+- Ensure all styles are responsive and well-structured following the rules above.

@@ -1,0 +1,46 @@
+.adBanner {
+    overflow: hidden;
+}
+
+/* Slot-specific sizes */
+.sideAd {
+    width: 10rem;
+    min-height: 37.5rem;
+    position: sticky;
+    top: 5rem;
+}
+
+.topBanner {
+    width: 100%;
+    max-width: 45.5rem;
+    height: 5.625rem;
+    margin: var(--spacing-md) auto;
+}
+
+.bottomSticky {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .sideAd {
+        display: none;
+    }
+
+    .topBanner {
+        max-width: 100%;
+        height: 6.25rem;
+    }
+
+    .bottomSticky {
+        display: flex;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 3.125rem;
+        z-index: 90;
+        border-radius: 0;
+        border: none;
+        border-top: 0.0625rem solid var(--color-border);
+    }
+}

@@ -1,0 +1,110 @@
+.hero {
+    background-color: var(--color-primary);
+    padding: var(--spacing-xl) var(--spacing-xl) var(--spacing-xxl);
+    text-align: center;
+}
+
+.searchForm {
+    display: flex;
+    gap: 0;
+    max-width: 50rem;
+    margin: 0 auto;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.trackingInput {
+    flex: 1;
+    padding: var(--spacing-md) var(--spacing-lg);
+    font-size: 1rem;
+    background-color: var(--color-white);
+    color: var(--color-text);
+    min-width: 0;
+}
+
+.trackingInput::placeholder {
+    color: var(--color-text-light);
+}
+
+.courierSelect {
+    padding: var(--spacing-md) var(--spacing-lg);
+    font-size: 0.9rem;
+    background-color: var(--color-white);
+    color: var(--color-text);
+    border-left: 0.0625rem solid var(--color-border);
+    cursor: pointer;
+    min-width: 10rem;
+}
+
+.searchBtn {
+    padding: var(--spacing-md) var(--spacing-xl);
+    background-color: var(--color-text-light);
+    color: var(--color-white);
+    font-size: 0.95rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    transition: background-color var(--transition-fast);
+    white-space: nowrap;
+}
+
+.searchBtn:hover {
+    background-color: var(--color-text);
+}
+
+.downloadBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-md) var(--spacing-xxl);
+    background-color: #222;
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: var(--radius-lg);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.downloadBtn:hover {
+    transform: translateY(-0.125rem);
+    box-shadow: var(--shadow-lg);
+}
+
+.playIcon {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: var(--spacing-lg) var(--spacing-md) var(--spacing-xl);
+    }
+
+    .searchForm {
+        flex-direction: column;
+        border-radius: var(--radius-md);
+    }
+
+    .trackingInput {
+        border-radius: var(--radius-md) var(--radius-md) 0 0;
+        font-size: 0.9rem;
+    }
+
+    .courierSelect {
+        border-left: none;
+        border-top: 0.0625rem solid var(--color-border);
+        min-width: 100%;
+    }
+
+    .searchBtn {
+        border-radius: 0 0 var(--radius-md) var(--radius-md);
+        justify-content: center;
+    }
+
+    .downloadBtn {
+        padding: var(--spacing-md) var(--spacing-xl);
+        font-size: 0.9rem;
+    }
+}
