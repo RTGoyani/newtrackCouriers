@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node --require ./scripts/vite-safe-preload.cjs ./node_modules/vite/bin/vite.js",
+    "start": "npm run dev",
+    "dev:direct": "node --require ./scripts/vite-safe-preload.cjs ./node_modules/vite/bin/vite.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
