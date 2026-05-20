@@ -55,7 +55,7 @@ const CourierTrackingPage = () => {
 		<>
 			<Helmet>
 				{/* 1. BROWSER TAB TITLE */}
-				<title>{seo.title}</title>
+				{/* <title>{seo.title}</title> */}
 
 				{/* 2. STANDARD SEO META TAGS */}
 				<meta name="title" content={seo.title} />

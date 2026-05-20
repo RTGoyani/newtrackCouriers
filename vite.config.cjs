@@ -140,6 +140,9 @@ return renderedRoute;
 return {
 plugins,
 server: {
+hmr: {
+overlay: false,
+},
 proxy: {
 "/api/tracking": {
 target: "https://de.trackcouriers.io",
