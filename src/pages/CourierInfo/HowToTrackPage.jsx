@@ -1,6 +1,8 @@
 import { Link, useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import CourierGrid from "../../components/CourierGrid/CourierGrid";
 import { allCouriers } from "../../data/couriers";
+import { getSeoContent, getWebPageSchema } from "../../data/seoContent";
 import { howToContent } from "../../data/howToContent";
 import styles from "./CourierInfo.module.css";
 
@@ -25,12 +27,43 @@ const HowToTrackPage = () => {
 	const { slug } = useParams();
 	const courierName = getCourierName(slug);
 	const trackingSlug = getCourierSlug(courierName);
+	const seo = getSeoContent(slug, courierName);
 	const specificContent = howToContent[slug];
+
+	const seoHelmet = (
+		<Helmet>
+			<meta name="title" content={seo.title} />
+			<meta name="description" content={seo.description} />
+			<link rel="canonical" href={`https://trackcouriers.io/${slug}`} />
+			<meta name="keywords" content={seo.keywords} />
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content={`https://trackcouriers.io/${slug}`} />
+			<meta property="og:site_name" content="TrackCouriers" />
+			<meta property="og:title" content={seo.ogTitle} />
+			<meta property="og:description" content={seo.ogDescription} />
+			<meta property="og:image" content={seo.ogImage} />
+			<meta property="og:image:width" content="1200" />
+			<meta property="og:image:height" content="630" />
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:url" content={`https://trackcouriers.io/${slug}`} />
+			<meta name="twitter:title" content={seo.ogTitle} />
+			<meta name="twitter:description" content={seo.ogDescription} />
+			<meta name="twitter:image" content={seo.ogImage} />
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify(getWebPageSchema(slug, seo)),
+				}}
+			/>
+		</Helmet>
+	);
 
 	if (specificContent) {
 		return (
-			<div className={styles.page}>
-				<h1 className={styles.pageTitle}>{specificContent.title}</h1>
+			<>
+				{seoHelmet}
+				<div className={styles.page}>
+					<h1 className={styles.pageTitle}>{specificContent.title}</h1>
 				<hr className={styles.titleDivider} />
 
 				<p className={styles.intro}>{specificContent.intro}</p>
@@ -72,12 +105,15 @@ const HowToTrackPage = () => {
 
 				<CourierGrid />
 			</div>
-		);
+		</>
+	);
 	}
 
 	return (
-		<div className={styles.page}>
-			<h1 className={styles.pageTitle}>{courierName} Tracking</h1>
+		<>
+			{seoHelmet}
+			<div className={styles.page}>
+				<h1 className={styles.pageTitle}>{courierName} Tracking</h1>
 			<hr className={styles.titleDivider} />
 
 			<p className={styles.intro}>
@@ -158,8 +194,7 @@ const HowToTrackPage = () => {
 
 			<CourierGrid />
 		</div>
+		</>
 	);
 };
-
-
 export default HowToTrackPage;

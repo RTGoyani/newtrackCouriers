@@ -2039,6 +2039,80 @@ Canada Post operates an extensive network of postal outlets and delivery routes 
 			},
 		],
 	},
+	"rl-carriers-tracking": {
+		title: "RL Carriers Courier Tracking",
+		about: `Status Meaning Table:
+• In-Transit means your shipment is moving between hubs.
+• Out for Delivery means your package is expected to arrive today.
+
+PRO Number Format:
+• R+L Carriers PRO numbers are usually 9 digits.
+
+Enjoy B2B tools that provide direct access to your shipment booking and tracking. Connect with us today to simplify your freight shipping process.`,
+		services: [
+	{
+		name: "Express & Standard Delivery",
+		description:
+			"Enjoy peace of mind by tracking your shipment’s journey from pickup to final delivery.",
+	},
+	{
+		name: "Express & Standard Delivery",
+		description:
+			"Schedule shipment pickups and choose convenient drop-off locations with ease.",
+	},
+	{
+		name: "Express & Standard Delivery",
+		description:
+			"Calculate your freight shipping transit time and estimated delivery rates quickly.",
+	},
+],
+		trackingStatusListDescription:
+"Track the progress of your RL Carriers shipment from booking and transit to delivery confirmation. Each update keeps you informed about package movement and delivery timing.",
+		trackingStatusList: [
+			{
+				status: "Pro Number:",
+				description: "The unique 9-digit identifier for your specific LTL shipment.",
+			},
+			{
+				status: "Current Status",
+				description: "Real-time updates such as 'In Transit,' 'Arrived at Terminal,' or 'Out for Delivery'.",
+			},
+			{
+				status: "Origin & Destination",
+				description: "service centers where your freight started and where it is headed.",
+			},
+			{
+				status: "Pickup Date",
+				description: "official date R+L Carriers took possession of your goods",
+			},
+			{
+				status: "Estimated Delivery Date (EDD)",
+				description: "projected date your shipment will arrive at the consignee’s location.",
+			},
+			{
+				status: "Weight & Piece Count",
+				description: "Crucial logistics data to verify your full order is accounted for.",
+			},
+			{
+				status: "Billing Party",
+				description: "Information regarding who is responsible for the freight charges",
+			},
+		],
+		faq: [
+			{
+				q: "How can I track my R+L Carriers shipment?",
+				a: "Track your freight, enter your 9-digit Pro Number in a tracking tool. R+L Carrier allows you to track multiple shipments at once by entering one Pro Number per line. You can also track using a Pickup and Drop Request ID.",
+			},
+			{
+				q: "What does 'In Transit' mean for R+L Carriers?",
+				a: "'In Transit' indicates that your shipment is currently moving between service centers within the R L location. It does not necessarily mean it is on the final delivery truck yet, but it is moving toward the destination location.",
+			},
+			{
+				q: "How do I find my estimated delivery date?",
+				a: " Once the shipment is picked up and scanned into the system, an Estimated Delivery Date (EDD) will appear in the tracking results."
+			},
+		],
+	},
 };
 
 // Generate default content for couriers without specific data
@@ -2080,3 +2154,6 @@ export function getCourierContent(slug) {
 		],
 	};
 }
+
+
+

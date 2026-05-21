@@ -6,7 +6,7 @@ import Loader from "../../components/Loader/Loader";
 import TrackingIframe from "../../components/TrackingIframe/TrackingIframe";
 import { getCourierContent } from "../../data/courierContent";
 import { allCouriers } from "../../data/couriers";
-import { getSeoContent } from "../../data/seoContent";
+import { getSeoContent, getWebPageSchema } from "../../data/seoContent";
 import { fetchTrackingData } from "../../data/trackingApi";
 import styles from "./CourierTrackingPage.module.css";
 
@@ -81,6 +81,13 @@ const CourierTrackingPage = () => {
 				<meta name="twitter:image" content={seo.ogImage} />
 
 				{/* 5. GOOGLE STRUCTURED DATA (JSON-LD) */}
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify(getWebPageSchema(slug, seo)),
+					}}
+				/>
+
 				<script
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{

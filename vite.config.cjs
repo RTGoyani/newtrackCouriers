@@ -72,6 +72,7 @@ routes: [
 "/shopee-tracking",
 "/bluecare-express-tracking",
 "/trackon-tracking",
+"/rl-carriers-tracking",
 "/amazon-customer-support",
 "/fedex-customer-support",
 "/dhl-customer-support",
@@ -120,6 +121,7 @@ routes: [
 "/how-to-dhl-courier-tracking",
 "/how-to-fedex-courier-tracking",
 "/how-to-bluedart-courier-tracking",
+"/ecom-tracking",
 ],
 
 renderer: new PuppeteerRenderer({

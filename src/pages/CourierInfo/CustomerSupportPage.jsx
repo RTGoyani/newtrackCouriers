@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import { allCouriers } from "../../data/couriers";
-import { getSeoContent } from "../../data/seoContent";
+import { getSeoContent, getWebPageSchema } from "../../data/seoContent";
 import { getSupportContent } from "../../data/supportContent";
 import styles from "./CourierInfo.module.css";
 
@@ -54,6 +54,13 @@ const CustomerSupportPage = () => {
 				<meta name="twitter:image" content={seo.ogImage} />
 
 				{/* 5. GOOGLE STRUCTURED DATA (JSON-LD) */}
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify(getWebPageSchema(slug, seo)),
+					}}
+				/>
+
 				<script
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{

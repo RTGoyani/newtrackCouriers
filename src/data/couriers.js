@@ -45,7 +45,14 @@ export const featuredCouriers = [
 			"Etsy is a global marketplace for creative goods. It is home to an exclusive universe of objects, from handcrafted pieces to vintage treasures.",
 		cta: "Etsy Tracking.",
 	},
-];
+	{
+		name: "RL Carriers Tracking",
+		slug: "rl-carriers-tracking",
+		logo: "https://ui-avatars.com/api/?name=RL+Carriers&background=0F172A&color=fff&bold=true&size=128",
+		description:
+			"Track RL Carriers shipments in real-time. Enter your tracking number for instant status updates and delivery progress.",
+		cta: "RL Carriers parcel tracking.",
+	},];
 
 export const allCouriers = [
 	{ name: "FedEx", slug: "fedex-tracking", logo: "/FedEx.png" },
@@ -72,6 +79,8 @@ export const allCouriers = [
 	{ name: "Shopee", slug: "shopee-tracking", logo: "/shopee.png" },
 	{ name: "Bluecare Express", slug: "bluecare-express-tracking", logo: "/Bluecare Express.png" },
 	{ name: "Trackon", slug: "trackon-tracking", logo: "/Trackon.png" },
+	{ name: "RL Carriers", slug: "rl-carriers-tracking", logo: "https://ui-avatars.com/api/?name=RL+Carriers&background=0F172A&color=fff&bold=true&size=128" },
+	
 ];
 
 export const domesticCouriers = [

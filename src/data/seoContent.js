@@ -12,9 +12,9 @@ export const getSeoContent = (slug, courierName) => {
 
 	const seoData = {
 		"ups-tracking": {
-			title: "UPS Tracking - Track Your UPS Package Live | TrackCouriers.io",
-			description: "Easily track your UPS shipments in real-time. Enter your tracking number to get instant status updates, estimated delivery dates, and location history.",
-			keywords: "UPS Tracking, Track UPS Package, UPS tracking real-time, Track package UPS, FedEx vs UPS tracking comparison",
+			title: "UPS Tracking - Track UPS Courier Number Online | TrackCouriers.io",
+			description: "Check UPS live courier status and parcel location. Enter your 1Z tracking number format to get real-time delivery updates for UPS domestic and international shipments.",
+			keywords: "UPS tracking live status, UPS tracking number format, UPS international tracking, track UPS package 1Z, UPS parcel location",
 			ogTitle: "UPS Tracking - Live Package Status",
 			ogDescription: "Fast and accurate UPS tracking. Get your delivery status instantly.",
 			ogImage: "https://trackcouriers.io/images/ups-tracking-preview.jpg",
@@ -22,9 +22,9 @@ export const getSeoContent = (slug, courierName) => {
 			priceCurrency: "USD",
 		},
 		"dhl-tracking": {
-			title: "DHL Courier Tracking | DHL Express Live Status | TrackCouriers.io",
-			description: "Easily track your DHL package! Get real-time updates on shipment location and delivery status across Germany and worldwide with our convenient tracking tool.",
-			keywords: "DHL Tracking, DHL Express Tracking, DHL Germany, Track DHL Package, DHL International Tracking, DHL Parcel Status",
+			title: "DHL Tracking | Track DHL Express Shipments Worldwide",
+			description: "Enter your DHL tracking number for real-time shipment updates. Track DHL Express, Global Forwarding, and international packages instantly. Fast and secure.",
+			keywords: "DHL tracking, DHL express tracking, track DHL package, DHL shipment status",
 			ogTitle: "DHL Express Tracking - Real-Time Package Status",
 			ogDescription: "Track your DHL shipments worldwide. Get instant location updates and estimated delivery times.",
 			ogImage: "https://trackcouriers.io/images/dhl-tracking-preview.jpg",
@@ -32,9 +32,9 @@ export const getSeoContent = (slug, courierName) => {
 			priceCurrency: "USD",
 		},
 		"fedex-tracking": {
-			title: "FedEx Courier Tracking | FedEx Shipment Live Status | TrackCouriers.io",
-			description: "Easily track your FedEx packages in real-time! Get updates on shipment location, delivery status, and arrival time with our reliable tracking tool.",
-			keywords: "FedEx Express Tracking, FedEx Corp Tracking, FedEx Track Package, Federal Express Tracking, FedEx International Tracking, United States Postal Tracking",
+			title: "FedEx Tracking Status Meanings | Track FedEx Package Online",
+			description: "Is your FedEx package stuck? Enter your tracking number for real-time updates and clear explanations for status codes like 'In Transit' or 'Delivery Exception'.",
+			keywords: "fedex tracking status meaning, fedex package not moving, fedex delivery exception, track fedex shipment india, fedex tracking number format",
 			ogTitle: "FedEx Tracking - Real-Time Shipment Updates",
 			ogDescription: "Fast and reliable FedEx package tracking. Enter your tracking ID to see your package's current location and estimated delivery.",
 			ogImage: "https://trackcouriers.io/images/fedex-tracking-preview.jpg",
@@ -42,9 +42,9 @@ export const getSeoContent = (slug, courierName) => {
 			priceCurrency: "USD",
 		},
 		"ekart-tracking": {
-			title: "Ekart Courier Tracking | Flipkart & Myntra Delivery Status | TrackCouriers.io",
-			description: "Easily track your Ekart packages! Get real-time updates on shipment location, delivery status, and estimated arrival time for your Flipkart and Myntra orders.",
-			keywords: "Ekart Tracking, Ekart Courier Tracking, Flipkart Tracking, Myntra Order Tracking, Ekart Logistics Tracking, Track Ekart Shipment, Ekart AWB Status",
+			title: "ekart Courier Tracking – Ekart Courier Tracking",
+			description: "Easily track your Ekart packages! Get real-time updates on shipment location, delivery status, and estimated arrival time with our reliable tracking tool.",
+			keywords: "flipkart tracking, ekart tracking, ekart courier tracking, flipkart courier tracking, ekart shipment tracking, Track ekart package, ekart delivery tracking, ekart parcel tracking, ekart logistics tracking, Ekart tracking number, Track Ekart shipment, Ekart express tracking",
 			ogTitle: "Ekart Logistics Tracking - Real-Time Flipkart Updates",
 			ogDescription: "Fast and reliable Ekart tracking for your online orders. Check your parcel location and delivery date instantly.",
 			ogImage: "https://trackcouriers.io/images/ekart-tracking-preview.jpg",
@@ -52,8 +52,8 @@ export const getSeoContent = (slug, courierName) => {
 			priceCurrency: "INR",
 		},
 		"aramex-tracking": {
-			title: "Aramex Tracking | Aramex Shipment Live Status | TrackCouriers.io",
-			description: "Easily track your Aramex shipments! Enter your tracking number for real-time updates on delivery status, location history, and estimated arrival with our reliable tool.",
+			title: "Aramex Tracking Online | Check Status & Tracking Number Format",
+			description: "Track your Aramex shipment in real-time. Get instant international & domestic delivery updates, customer care contacts, and status meanings. Fast and free.",
 			keywords: "Aramex Tracking, Aramex Courier Tracking, Track Aramex Package, Aramex Shipment Tracking, Aramex International Tracking, Aramex Delivery Status",
 			ogTitle: "Aramex Tracking - Real-Time International Updates",
 			ogDescription: "Fast and accurate Aramex tracking. Enter your tracking ID to see your shipment's current location and delivery schedule.",
@@ -72,9 +72,9 @@ export const getSeoContent = (slug, courierName) => {
 			priceCurrency: "INR",
 		},
 		"shree-tirupati-courier-tracking": {
-			title: "Shree Tirupati Courier Tracking | Real-Time Status | TrackCouriers.io",
+			title: "Shree Tirupati Courier Tracking | Real-Time Package Status",
 			description: "Track your Shree Tirupati Courier shipments in real-time! Enter your consignment number for instant updates and ensure your delivery arrives on time.",
-			keywords: "Shree Tirupati Courier Tracking, Tirupati Courier Tracking, Track Tirupati Package, Tirupati Courier Consignment Tracking, Shree Tirupati Courier Online Status",
+			keywords: "indian postal tracker, 4px tracking, dtdc tracking india, 4xp tracking, Shree Tirupati Courier Tracking, Tirupati Courier Tracking, Tirupati Courier Near by me, Track Shree Tirupati Courier, Shree Tirupati Package Status, Shree Tirupati Courier Services, Shree Tirupati Tracking Number, Shree Tirupati Tracking Online, Shree Tirupati Parcel Tracking, Shree Tirupati Consignment Tracking, Shree Tirupati Courier Delivery Status, Shree Tirupati Shipping Tracking",
 			ogTitle: "Shree Tirupati Courier - Live Tracking & Status",
 			ogDescription: "Easily track your Tirupati Courier parcels. Get real-time location updates and estimated delivery timing.",
 			ogImage: "https://trackcouriers.io/images/tirupati-courier-preview.jpg",
@@ -92,9 +92,9 @@ export const getSeoContent = (slug, courierName) => {
 			priceCurrency: "USD",
 		},
 		"ebay-tracking": {
-			title: "eBay Tracking | Track Your eBay Order Online | TrackCouriers.io",
-			description: "Track your eBay orders in real-time! Enter your tracking number for shipment status updates and ensure timely delivery with our reliable eBay Global Shipping tracking tool.",
-			keywords: "eBay tracking, track eBay order, eBay Global Shipping Program tracking, eBay international tracking, eBay shipment status, eBay tracking number",
+			title: "eBay Tracking | Track Your eBay Order Online",
+			description: "Track your eBay orders in real-time! Enter your tracking number for shipment status updates and ensure timely delivery with our reliable tracking tool.",
+			keywords: "eBay tracking, eBay courier tracking, Track eBay order, eBay tracking number, eBay shipment tracking, eBay order tracking, eBay delivery tracking, Track eBay package, eBay parcel tracking, eBay package tracker",
 			ogTitle: "eBay Order Tracking - Live Global Updates",
 			ogDescription: "Fast and accurate tracking for your eBay purchases. Get real-time updates on your shipment's location and delivery date.",
 			ogImage: "https://trackcouriers.io/images/ebay-tracking-preview.jpg",
@@ -141,17 +141,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "4PX Courier Tracker",
 			priceCurrency: "INR",
 		},
-		"indian-post-tracking": {
-			title: "Indian Post Courier Tracking - TrackCouriers",
-			description: "Track your Indian Post shipments easily! Enter your tracking number for real-time updates on your packages with our fast and reliable online tracking tool.",
-			keywords: "indian postal tracker, 4px tracking, dtdc tracking india, 4xp tracking, Indian Post tracking, Indian Post courier tracking, Indian Post shipment tracking, Track Indian Post package, Indian Post delivery tracking, Indian Post tracking number, Indian Post parcel tracking, Indian Post logistics tracking, Track Indian Post shipment, Indian Post express tracking",
-			ogTitle: "Indian Post Courier - Live Tracking & Status",
-			ogDescription: "Easily track your Indian Post parcels. Get real-time location updates and estimated delivery timing.",
-			ogImage: "https://trackcouriers.io/images/indian-post-tracking-preview.jpg",
-			appName: "Indian Post Courier Tracker",
-			priceCurrency: "INR",
-		},
-
 		"xpressbees-tracking": {
 			title: "Xpressbees Courier Tracking | Real-Time Package Delivery Updates",
 			description: "Easily track your Xpressbees shipments online! Enter your tracking number for real-time updates on delivery status with our efficient and reliable service.",
@@ -211,6 +200,16 @@ export const getSeoContent = (slug, courierName) => {
 			ogImage: "https://trackcouriers.io/images/amazon-tracking-preview.jpg",
 			appName: "Amazon Courier Tracker",
 			priceCurrency: "INR",
+		},
+		"rl-carriers-tracking": {
+			title: "R+L Carriers Tracking - Real-Time Freight Pro Tracking",
+			description: "Track your R+L Carriers shipment in real-time. Enter your 9-digit Pro Number to see delivery dates, transit status, and terminal locations.",
+			keywords: "R+L Carriers tracking, RL Carriers tracking, track freight, Pro number tracking, R+L shipment status, rl transport tracking, r l carriers tracking, r&l carriers inc tracking, rl carrier tracker, rl tracking",
+			ogTitle: "RL Carriers Tracking - Live Package Status",
+			ogDescription: "Fast and accurate RL Carriers tracking. Get instant delivery updates and current package location details.",
+			ogImage: "https://trackcouriers.io/images/rl-carriers-tracking-preview.jpg",
+			appName: "RL Carriers Package Tracker",
+			priceCurrency: "USD",
 		},
 		"trackon-tracking": {
 			title: "Trackon Courier Tracking | Real-Time Package Updates",
@@ -506,5 +505,83 @@ export const getSeoContent = (slug, courierName) => {
 
 	};
 
+
+	// Dynamic handler for any "-customer-support" slug not explicitly listed
+	if (typeof slug === "string" && slug.endsWith("-customer-support")) {
+		const raw = slug.replace(/-customer-support$/, "");
+		const prettyName = (courierName && courierName.length > 0)
+			? courierName
+			: raw.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+
+		return {
+			title: `${prettyName} Customer Support - Contact Details & Help Center`,
+			description: `Find comprehensive contact information for ${prettyName} customer support, including helpline numbers, email addresses, and office locations. Get help with orders, shipping, and other inquiries quickly and efficiently.`,
+			keywords: `${prettyName} customer support, ${prettyName} customer care number, contact ${prettyName}`,
+			ogTitle: `${prettyName} Customer Support - Contact Details & Help Center`,
+			ogDescription: `Find comprehensive contact information for ${prettyName} customer support, including helpline numbers, email addresses, and office locations.`,
+			ogImage: `https://trackcouriers.io/images/${slug}-preview.jpg`,
+			appName: `${prettyName} Customer Support`,
+			priceCurrency: "INR",
+		};
+	}
+
+	// Dynamic handler for any "how-to-*" courier-tracking slug not explicitly listed
+	if (typeof slug === "string" && slug.startsWith("how-to-") && slug.endsWith("-courier-tracking")) {
+		const raw = slug.replace(/^how-to-/, "").replace(/-courier-tracking$/, "");
+		const prettyName = (courierName && courierName.length > 0)
+			? courierName
+			: raw.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+
+		return {
+			title: `How to Track ${prettyName} Courier | ${prettyName} Tracking Guide | TrackCouriers.io`,
+			description: `Learn how to track your ${prettyName} shipments with step-by-step instructions, tracking tips, and real-time delivery updates.`,
+			keywords: `how to track ${prettyName}, ${prettyName} tracking guide, ${prettyName} courier tracking, ${prettyName} shipment tracking`,
+			ogTitle: `How to Track ${prettyName} Courier | TrackCouriers.io`,
+			ogDescription: `Follow this guide to track your ${prettyName} shipments, view current delivery status, and stay updated with real-time information.`,
+			ogImage: `https://trackcouriers.io/images/${slug}-preview.jpg`,
+			appName: `${prettyName} Tracking Guide`,
+			priceCurrency: "USD",
+		};
+	}
+
 	return seoData[slug] || defaultSeo;
 };
+
+export const getWebPageSchema = (slug, seo) => ({
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	name: seo.title,
+	url: `https://trackcouriers.io/${slug}`,
+	description: seo.description,
+	breadcrumb: {
+		"@type": "BreadcrumbList",
+		itemListElement: [
+			{
+				"@type": "ListItem",
+				position: 1,
+				name: "Home",
+				item: "https://trackcouriers.io/",
+			},
+			{
+				"@type": "ListItem",
+				position: 2,
+				name: seo.title,
+				item: `https://trackcouriers.io/${slug}`,
+			},
+		],
+	},
+	potentialAction: {
+		"@type": "SearchAction",
+		target: `https://trackcouriers.io/${slug}?tracking_number={tracking_number}`,
+		"query-input": "required name=tracking_number",
+	},
+	publisher: {
+		"@type": "Organization",
+		name: "TrackCouriers.io",
+		url: "https://trackcouriers.io/",
+		logo: {
+			"@type": "ImageObject",
+			url: "https://trackcouriers.io/logo.png",
+		},
+	},
+});
