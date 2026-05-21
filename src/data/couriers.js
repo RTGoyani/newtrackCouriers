@@ -79,7 +79,7 @@ export const allCouriers = [
 	{ name: "Shopee", slug: "shopee-tracking", logo: "/shopee.png" },
 	{ name: "Bluecare Express", slug: "bluecare-express-tracking", logo: "/Bluecare Express.png" },
 	{ name: "Trackon", slug: "trackon-tracking", logo: "/Trackon.png" },
-	{ name: "RL Carriers", slug: "rl-carriers-tracking", logo: "https://ui-avatars.com/api/?name=RL+Carriers&background=0F172A&color=fff&bold=true&size=128" },
+	{ name: "RL Carriers", slug: "rl-carriers-tracking", logo: "/RL.svg" },
 	
 ];
 
