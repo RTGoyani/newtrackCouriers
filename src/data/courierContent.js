@@ -2040,7 +2040,7 @@ Canada Post operates an extensive network of postal outlets and delivery routes 
 		],
 	},
 	"rl-carriers-tracking": {
-		title: "RL Carriers Courier Tracking",
+		title: "R+L Carriers Courier Tracking",
 		about: `Status Meaning Table:
 • In-Transit means your shipment is moving between hubs.
 • Out for Delivery means your package is expected to arrive today.

@@ -164,7 +164,7 @@ const CourierTrackingPage = () => {
 				<section id="about" className={styles.aboutSection}>
 					{/* <h2 className={styles.aboutTitle}>About {content.title.replace(" Courier Tracking", "")}</h2> */}
 
-					<h1 className={styles.aboutTitle}>About {content.title}</h1>
+					<h1 className={styles.aboutTitle}>{content.title} Overview</h1>
 					<hr className={styles.aboutDivider} />
 					<p className={styles.aboutText}>{content.about}</p>
 
