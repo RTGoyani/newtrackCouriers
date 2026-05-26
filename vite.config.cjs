@@ -122,6 +122,10 @@ routes: [
 "/how-to-fedex-courier-tracking",
 "/how-to-bluedart-courier-tracking",
 "/ecom-tracking",
+"/how-to-ecom-express-courier-tracking",
+"/how-to-ecom-courier-tracking",
+"/how-to-rl-carriers-courier-tracking",
+
 ],
 
 renderer: new PuppeteerRenderer({

@@ -1,16 +1,68 @@
 export const getSeoContent = (slug, courierName) => {
+	const cleanSlug = slug || "home";
+	const name = courierName || "Courier";
 	const defaultSeo = {
-		title: `${courierName} Tracking | Track Your ${courierName} Package Live | TrackCouriers.io`,
-		description: `Easily track your ${courierName} shipments in real-time. Enter your tracking number to get instant status updates, estimated delivery dates, and location history.`,
-		keywords: `${courierName} Tracking, Track ${courierName} Package, ${courierName} tracking real-time, Track package ${courierName}`,
-		ogTitle: `${courierName} Tracking - Live Package Status`,
-		ogDescription: `Fast and accurate ${courierName} tracking. Get your delivery status instantly.`,
-		ogImage: `https://trackcouriers.io/images/${slug}-preview.jpg`,
-		appName: `${courierName} Package Tracker`,
+		title: `${name} Tracking | Track Your ${name} Package Live | TrackCouriers.io`,
+		description: `Easily track your ${name} shipments in real-time. Enter your tracking number to get instant status updates, estimated delivery dates, and location history.`,
+		keywords: `${name} Tracking, Track ${name} Package, ${name} tracking real-time, Track package ${name}`,
+		ogTitle: `${name} Tracking - Live Package Status`,
+		ogDescription: `Fast and accurate ${name} tracking. Get your delivery status instantly.`,
+		ogImage: `https://trackcouriers.io/images/${slug || "default"}-preview.jpg`,
+		appName: `${name} Package Tracker`,
 		priceCurrency: "USD",
 	};
 
 	const seoData = {
+		"home": {
+			title: "TrackCouriers.io | Track Courier Packages Worldwide",
+			description: "Track your courier packages worldwide. Track shipments from FedEx, UPS, DHL, BlueDart, Delhivery, Ekart, DTDC, Aramex and 50+ courier services.",
+			keywords: "courier tracking, package tracking, shipment tracking, FedEx, UPS, DHL, BlueDart, Delhivery",
+			ogTitle: "TrackCouriers.io - Live Package Status",
+			ogDescription: "Fast and accurate courier tracking. Get your delivery status instantly.",
+			ogImage: "https://trackcouriers.io/images/preview.jpg",
+			appName: "TrackCouriers.io",
+			priceCurrency: "USD",
+		},
+		"about-us": {
+			title: "About Us | TrackCouriers.io",
+			description: "Learn more about TrackCouriers.io, our mission, vision, and the core services we provide to simplify courier tracking globally.",
+			keywords: "about trackcouriers, trackcouriers vision, courier tracking service",
+			ogTitle: "About Us - TrackCouriers.io",
+			ogDescription: "Learn more about TrackCouriers.io and our mission to simplify tracking.",
+			ogImage: "https://trackcouriers.io/images/about-preview.jpg",
+			appName: "TrackCouriers.io",
+			priceCurrency: "USD",
+		},
+		"contact-us": {
+			title: "Contact Us | TrackCouriers.io",
+			description: "Get in touch with TrackCouriers.io for support, inquiries, and assistance with courier tracking.",
+			keywords: "contact trackcouriers, trackcouriers support, help center",
+			ogTitle: "Contact Us - TrackCouriers.io",
+			ogDescription: "Get in touch with the TrackCouriers.io support team.",
+			ogImage: "https://trackcouriers.io/images/contact-preview.jpg",
+			appName: "TrackCouriers.io",
+			priceCurrency: "USD",
+		},
+		"privacy-policy": {
+			title: "Privacy Policy | TrackCouriers.io",
+			description: "Read the Privacy Policy of TrackCouriers.io to understand how we collect, use, and protect your personal information.",
+			keywords: "privacy policy, trackcouriers privacy, data protection",
+			ogTitle: "Privacy Policy - TrackCouriers.io",
+			ogDescription: "Understand how we protect your personal information.",
+			ogImage: "https://trackcouriers.io/images/privacy-preview.jpg",
+			appName: "TrackCouriers.io",
+			priceCurrency: "USD",
+		},
+		"terms-and-conditions": {
+			title: "Terms and Conditions | TrackCouriers.io",
+			description: "Read the Terms and Conditions of using TrackCouriers.io services.",
+			keywords: "terms and conditions, user agreement, trackcouriers terms",
+			ogTitle: "Terms and Conditions - TrackCouriers.io",
+			ogDescription: "Read our terms of service and user agreement.",
+			ogImage: "https://trackcouriers.io/images/terms-preview.jpg",
+			appName: "TrackCouriers.io",
+			priceCurrency: "USD",
+		},
 		"ups-tracking": {
 			title: "UPS Tracking - Track UPS Courier Number Online | TrackCouriers.io",
 			description: "Check UPS live courier status and parcel location. Enter your 1Z tracking number format to get real-time delivery updates for UPS domestic and international shipments.",
@@ -241,7 +293,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Amazon International Courier Tracker",
 			priceCurrency: "INR",
 		},
-
 		"ekart-customer-support": {
 			title: "Ekart Customer Support - Contact Details & Help Center",
 			description: "Discover Ekart customer support details, including contact information, FAQs, and support resources for tracking and delivery inquiries. Get assistance with orders, shipments, and more.",
@@ -273,7 +324,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Amazon International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"aramex-customer-support": {
 			title: "Aramex Customer Support - Contact Details & Help Center",
 			description: "Find comprehensive Aramex customer support details, including contact information, FAQs, and support resources. Get assistance with tracking, shipping, and more.",
@@ -284,19 +334,7 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Aramex International Customer Support",
 			priceCurrency: "INR",
 		},
-
-
-		"how-to-bluecare-express-courier-tracking": {
-			title: "BlueCare Customer Support - Contact Details & Help Center",
-			description: "Discover comprehensive BlueCare customer support details, including contact information, FAQs, and support resources. Get help with tracking, shipping, and more.",
-			keywords: "BlueCare customer support, BlueCare customer care number, BlueCare customer care, contact BlueCare, BlueCare help center, BlueCare tracking support, BlueCare shipping assistance",
-			ogTitle: "BlueCare International Customer Support - Contact Details & Help Center",
-			ogDescription: "BlueCare customer support, BlueCare customer care number, BlueCare customer care, contact BlueCare, BlueCare help center, BlueCare tracking support,BlueCare shipping assistance",
-			ogImage: "https://trackcouriers.io/images/bluecare-customer-support-preview.jpg",
-			appName: "BlueCare International Customer Support",
-			priceCurrency: "INR",
-		},
-
+		
 		"bluedart-customer-support": {
 			title: "Blue Dart Tracking - Comprehensive Guide to Track Your Shipments",
 			description: "Easily track your Blue Dart shipments with our detailed guide. Learn how to use your tracking number to get real-time updates on your package's status and ensure smooth delivery.",
@@ -502,49 +540,274 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Xpressbees International Customer Support",
 			priceCurrency: "INR",
 		},
+		"how-to-bluedart-courier-tracking": {
+			title: "How to Track Blue Dart Courier - Easy Guide | TrackCouriers.io",
+			description: "Learn to track your Blue Dart shipments effortlessly with our step-by-step guide. Stay updated on your package status using TrackCouriers.io for a seamless tracking experience.",
+			keywords: "Blue Dart tracking, Blue Dart courier tracking, track Blue Dart shipment, Blue Dart waybill tracking, how to track Blue Dart, Blue Dart package status, Blue Dart courier services",
+			ogTitle: "How to Track BlueDart Couriers - Step-by-Step Guide",
+			ogDescription: "Learn how to track your BlueDart shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/bluedart-courier-tracking-preview.jpg",
+			appName: "Blue Dart International Customer Support",
+			priceCurrency: "INR",
+		},
+
+
+		"how-to-delhivery-courier-tracking": {
+			title: "How to Track Delivery Courier - Easy Guide | TrackCouriers.io",
+			description: "Learn to track your Delivery shipments effortlessly with our step-by-step guide. Stay updated on your package status using TrackCouriers.io for a seamless tracking experience.",
+			keywords: "Delivery tracking, Delivery courier tracking, track Delivery shipment, Delivery waybill tracking, how to track Delivery, Delivery package status, Delivery courier services",
+			ogTitle: "How to Track Delivery Couriers - Step-by-Step Guide",
+			ogDescription: "Learn how to track your Delivery shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/delhivery-courier-tracking-preview.jpg",
+			appName: "Delivery International Customer Support",
+			priceCurrency: "INR",
+		},
+		"how-to-ekart-courier-tracking": {
+			title: "Ekart Courier Tracking | TrackCouriers.io",
+			description: "Discover how to easily track your Ekart courier packages with TrackCouriers.io. Follow our guide for real-time updates on your Ekart shipments. Start tracking now!.",
+			keywords: "Ekart courier tracking, Ekart tracking online, Track Ekart shipment, Ekart parcel tracking, Ekart India tracking",
+			ogTitle: "How to Track Ekart Couriers - Step-by-Step Guide",
+			ogDescription: "Learn how to track your Ekart shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/ekart-courier-tracking-preview.jpg",
+			appName: "Ekart International Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-ecom-courier-tracking": {
+			title: "Ecom Express Courier Tracking: Easy Steps &amp; Updates | TrackCouriers.io",
+			description: "Learn how to track your Ecom Express courier package with ease using TrackCouriers.io. Follow our step-by-step guide for real-time updates and delivery status. Start tracking now!",
+			keywords: "Ecom Express courier tracking, Ecom Express tracking online, Track Ecom Express shipment, Ecom Express parcel tracking, Ecom Express India tracking",
+			ogDescription: "Learn how to track your Ecom Express shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/ecom-courier-tracking-preview.jpg",
+			appName: "Ecom Express International Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-dtdc-courier-tracking": {
+			title: "DTDC Courier Tracking: Step-by-Step Guide | TrackCouriers.io",
+			description: "Discover how to track DTDC courier packages effortlessly with TrackCouriers.io. Follow our guide for real-time updates on your DTDC shipments. Start tracking now!",
+			keywords: "DTDC courier tracking, DTDC tracking online, Track DTDC shipment, DTDC parcel tracking, DTDC India tracking",
+			ogDescription: "Learn how to track your DTDC shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/dtdc-courier-tracking-preview.jpg",
+			appName: "DTDC International Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-shree-tirupati-courier-courier-tracking": {
+			title: "Shree Tirupati Courier Tracking | Real-Time Package Status",
+			description: "Track your Shree Tirupati Courier shipments in real-time! Enter your consignment number for instant updates and ensure your delivery arrives on time.",
+			keywords: "indian postal tracker, 4px tracking, dtdc tracking india, 4xp tracking, Shree Tirupati Courier Tracking, Tirupati Courier Tracking, Tirupati Courier Near by me, Track Shree Tirupati Courier, Shree Tirupati Package Status, Shree Tirupati Courier Services, Shree Tirupati Tracking Number, Shree Tirupati Tracking Online, Shree Tirupati Parcel Tracking, Shree Tirupati Consignment Tracking, Shree Tirupati Courier Delivery Status, Shree Tirupati Shipping Tracking",
+			ogDescription: "Learn how to track your Shree Tirupati shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/shree-tirupati-courier-tracking-preview.jpg",
+			appName: "Shree Tirupati Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-fedex-courier-tracking": {
+			title: "Step-by-Step Guide: How to Track FedEx Shipments | TrackCouriers.io",
+			description: "Stuck with a FedEx package? Learn exactly how to find your tracking number, enter it correctly, and solve common FedEx tracking errors with our 2026 updated guide.",
+			keywords: "how to find fedex tracking number, fedex tracking number format, fedex tracking not working, track fedex shipment without account, step by step courier tracking",
+			ogDescription: "Learn how to track your FedEx shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/fedex-courier-tracking-preview.jpg",
+			appName: "Shree Tirupati Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-amazon-courier-tracking": {
+			title: "How to Track Amazon shipment | Step-by-Step Guide - TrackCouriers.io",
+			description: "Discover how to track your Amazon courier easily with our step-by-step guide on TrackCouriers.io. Get real-time updates on your Amazon packages and ensure timely delivery.",
+			keywords: "how can track Amazon Courier,How can find my courier,how can track my order in Amazon, Amazon tracking, Amazon package tracking, Amazon order status, Track Amazon package, Amazon delivery tracking, Amazon parcel tracking, Amazon shipping tracking",
+			ogDescription: "Learn how to track your Amazon shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/amazon-courier-tracking-preview.jpg",
+			appName: "Shree Tirupati Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-ups-courier-tracking": {
+			title: "UPS Tracking Guide: Status Meanings & 1Z Number Formats",
+			description: "Master UPS tracking with our 2026 guide. Learn what 1Z tracking numbers mean, decode status updates like 'Exception', and find UPS customer care hubs in India.",
+			keywords: "UPS tracking status meanings, UPS 1Z tracking format, UPS courier help, track UPS package India",
+			ogDescription: "Learn how to track your UPS shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/ups-courier-tracking-preview.jpg",
+			appName: "Shree Tirupati Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-canada-post-courier-tracking": {
+			title: "Canada Post Courier Tracking - How to Track Shipments Easily",
+			description: "Learn how to effectively track your Canada Post shipments with our comprehensive guide. Discover the best tools and methods for seamless Canada Post package tracking.",
+			keywords: "Canada Post tracking, track Canada Post shipments, Canada Post parcel tracking,Canada Post courier tracking guide, how to track Canada Post packages, Canada Post tracking instructions, real-time Canada Post tracking",
+			ogDescription: "Learn how to track your Canada Post shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/canada-post-courier-tracking-preview.jpg",
+			appName: "Shree Tirupati Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-trackon-courier-tracking": {
+			title: "Trackon Courier Tracking Guide - How to Track Your Package",
+			description: "Trackon courier tracking, Trackon package tracking, Trackon shipment status, Trackon delivery tracking, Trackon order tracking.",
+			keywords: "Trackon courier tracking, Trackon package tracking, Trackon shipment status, Trackon delivery tracking, Trackon order tracking",
+			ogDescription: "Learn how to track your Canada Post shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/canada-post-courier-tracking-preview.jpg",
+			appName: "Shree Tirupati Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-gati-courier-tracking": {
+			title: "Complete Guide to Gati Courier Tracking - Track Shipments with Ease",
+			description: "Learn how to track Gati courier shipments efficiently with our comprehensive guide. Follow simple steps to monitor your Gati parcels and ensure timely delivery.",
+			keywords: "Gati courier tracking, track Gati shipments, Gati tracking number, Gati parcel tracking, Gati logistics tracking, Gati express tracking, Gati cargo tracking, Gati online tracking, Gati delivery tracking, how to track Gati courier",
+			ogDescription: "Learn how to track your Canada Post shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/canada-post-courier-tracking-preview.jpg",
+			appName: "Shree Tirupati Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-ebay-courier-tracking": {
+			title: "Complete Guide: How to Track Your eBay Courier Easily",
+			description: "Discover the easiest way to track your eBay courier with our comprehensive guide. Learn step-by-step instructions to locate and monitor your eBay order shipment.",
+			keywords: "eBay courier tracking, track eBay order, eBay shipment tracking, Order tracking",
+			ogDescription: "Learn how to track your Canada Post shipments with our simple step-by-step guide. Get real-time updates on your package status and delivery information.",
+			ogImage: "https://trackcouriers.io/images/ebay-courier-tracking-preview.jpg",
+			appName: "Shree eBay Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-flipkart-courier-tracking": {
+			title: "Flipkart Courier Tracking Guide - How to Track Your Package",
+			description: "Learn how to track your Flipkart courier with our step-by-step guide. Easily monitor your shipment status and stay updated on your delivery progress with Flipkart's tracking system.",
+			keywords: "Flipkart tracking, track Flipkart shipment, Flipkart courier tracking, Flipkart package status, how to track Flipkart, Flipkart tracking number, Flipkart delivery updates,track Flipkart package,Flipkart shipment status,track Flipkart delivery,Flipkart order tracking, Flipkart tracking guide",
+			ogDescription: "Flipkart tracking, track Flipkart shipment, Flipkart courier tracking, Flipkart package status, how to track Flipkart, Flipkart tracking number, Flipkart delivery updates,track Flipkart package,Flipkart shipment status,track Flipkart delivery,Flipkart order tracking, Flipkart tracking guide",
+			ogImage: "https://trackcouriers.io/images/flipkart-courier-tracking-preview.jpg",
+			appName: "Shree Flipkart Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-aramex-courier-tracking": {
+			title: "Aramex Tracking: How to Track Your Package (2026 Step-by-Step Guide)",
+			description: "Learn how to track your Aramex courier shipment in real-time. Follow our easy guide to check Aramex parcel status, find your waybill, and resolve tracking issues.",
+			keywords: "Aramex courier tracking, track Aramex order, Aramex shipment tracking, Order tracking",
+			ogDescription: "Aramex tracking, track Aramex shipment, Aramex courier tracking, Aramex package status, how to track Aramex, Aramex tracking number, Aramex delivery updates,track Aramex package,Aramex shipment status,track Aramex delivery,Aramex order tracking, Aramex tracking guide",
+			ogImage: "https://trackcouriers.io/images/aramex-courier-tracking-preview.jpg",
+			appName: "Shree Aramex Courier Customer Support",
+			priceCurrency: "INR",
+		},
+		"how-to-tnt-express-courier-tracking": {
+			title: "TNT Express Courier Tracking - Track Your Shipment Online",
+			description: "Learn how to use TNT Express courier tracking effectively. Follow our step-by-step guide to monitor your shipment’s status online. Visit us now!",
+			keywords: "TNT Express tracking, TNT tracking number, TNT courier tracking, Track TNT parcel, TNT shipment tracking, TNT express tracking online, TNT tracking UK, TNT tracking USA, TNT international tracking, Track TNT package",
+			ogDescription: "TNT Express tracking, TNT tracking number, TNT courier tracking, Track TNT parcel, TNT shipment tracking, TNT express tracking online, TNT tracking UK, TNT tracking USA, TNT international tracking, Track TNT package",
+			ogImage: "https://trackcouriers.io/images/tnt-express-courier-tracking-preview.jpg",
+			appName: "Shree TNT Express Courier Customer Support",
+			priceCurrency: "INR",
+		},
+		"how-to-xpressbees-courier-tracking": {
+			title: "Xpressbees Courier Tracking - Track Your Parcel Online",
+			description: "Learn how to effectively use Xpressbees Courier tracking services. Follow our step-by-step guide to monitor your parcel’s journey online. Visit us now!",
+			keywords:"Xpressbees courier tracking, Xpressbees tracking, Xpressbees courier online tracking, Xpressbees courier status tracking, Xpressbees parcel tracking, Xpressbees courier tracking India, Xpressbees courier shipment tracking, Xpressbees courier tracking system, Xpressbees courier delivery tracking, Xpressbees express tracking",
+			ogDescription: "Xpressbees courier tracking, Xpressbees tracking, Xpressbees courier online tracking, Xpressbees courier status tracking, Xpressbees parcel tracking, Xpressbees courier tracking India, Xpressbees courier shipment tracking, Xpressbees courier tracking system, Xpressbees courier delivery tracking, Xpressbees express tracking",
+			ogImage: "https://trackcouriers.io/images/xpressbees-courier-tracking-preview.jpg",
+			appName: "Shree Xpressbees Courier Customer Support",
+			priceCurrency: "INR",
+		},
+		"how-to-shree-maruti-courier-courier-tracking": {
+			title: "Shree Maruti Courier Tracking - Easily Track Your Shipments Online",
+			description: "Learn how to track your Shopee courier effortlessly. Follow our step-by-step guide to find detailed tracking information for your Shopee orders.",
+			keywords: "Shree Maruti Courier tracking, shipment tracking, indian shipment tracking",
+			ogDescription: "Shree Maruti courier tracking, Shree Maruti tracking, Shree Maruti courier online tracking, Shree Maruti courier status tracking, Shree Maruti parcel tracking, Shree Maruti courier tracking India, Shree Maruti courier shipment tracking, Shree Maruti courier tracking system, Shree Maruti courier delivery tracking, Shree Maruti express tracking",
+			ogImage: "https://trackcouriers.io/images/shree-maruti-courier-tracking-preview.jpg",
+			appName: "Shree Maruti Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-4px-courier-tracking": {
+			title: "Ultimate Guide to 4PX Courier Tracking - Track Your Shipments Easily",
+			description: "Discover how to effectively use 4PX courier tracking to monitor your shipments. Our detailed guide provides step-by-step instructions for tracking 4PX packages effortlessly.",
+			keywords: "4PX courier tracking, track 4PX shipments, 4PX tracking number, 4PX package tracking, track my 4PX parcel, 4PX shipping tracking, 4PX express tracking, 4PX logistics tracking, 4PX delivery tracking, how to track 4PX package",
+			ogDescription: "4PX courier tracking, 4PX tracking, 4PX courier online tracking, 4PX courier status tracking, 4PX parcel tracking, 4PX courier tracking India, 4PX courier shipment tracking, 4PX courier tracking system, 4PX courier delivery tracking, 4PX express tracking",
+			ogImage: "https://trackcouriers.io/images/4px-courier-tracking-preview.jpg",
+			appName: "4PX Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-dpd-courier-tracking": {
+			title: "DPD Courier Tracking: Easy Steps & Updates | TrackCouriers.io",
+			description: "Learn how to track your DPD courier package easily with TrackCouriers.io. Follow our step-by-step guide for real-time updates and delivery status. Start tracking now!",
+			keywords: "DPD courier tracking, DPD tracking online, Track DPD shipment, DPD parcel tracking, DPD UK tracking",
+			ogDescription: "DPD courier tracking, DPD tracking, DPD courier online tracking, DPD courier status tracking, DPD parcel tracking, DPD courier tracking India, DPD courier shipment tracking, DPD courier tracking system, DPD courier delivery tracking, DPD express tracking",
+			ogImage: "https://trackcouriers.io/images/dpd-courier-tracking-preview.jpg",
+			appName: "DPD Courier Customer Support",
+			priceCurrency: "INR",
+		},
+
+		"how-to-aliexpress-courier-tracking": {
+			title: "How to Track AliExpress Courier | Step-by-Step Guide - TrackCouriers.io",
+			description: "Track your courier online with our real-time package tracking tool. Enter your tracking number to get the latest delivery updates for Blue Dart, DHL, FedEx, and more.",
+			keywords: "how can track AliExpress Courier,How can find my courier,how can track my order in AliExpress, AliExpress tracking, AliExpress package tracking, AliExpress order status, Track AliExpress package, AliExpress delivery tracking, AliExpress parcel tracking, AliExpress shipping tracking",
+			ogDescription: "AliExpress courier tracking, AliExpress tracking, AliExpress courier online tracking, AliExpress courier status tracking, AliExpress parcel tracking, AliExpress courier tracking India, AliExpress courier shipment tracking, AliExpress courier tracking system, AliExpress courier delivery tracking, AliExpress express tracking",
+			ogImage: "https://trackcouriers.io/images/aliexpress-courier-tracking-preview.jpg",
+			appName: "AliExpress Courier Customer Support",
+			priceCurrency: "INR",
+		},
+		"how-to-bluecare-express-courier-tracking": {
+			title: "BlueCare Customer Support - Contact Details & Help Center",
+			description: "Discover comprehensive BlueCare customer support details, including contact information, FAQs, and support resources. Get help with tracking, shipping, and more.",
+			keywords: "BlueCare customer support, BlueCare customer care number, BlueCare customer care, contact BlueCare, BlueCare help center, BlueCare tracking support, BlueCare shipping assistance",
+			ogTitle: "BlueCare International Customer Support - Contact Details & Help Center",
+			ogDescription: "BlueCare customer support, BlueCare customer care number, BlueCare customer care, contact BlueCare, BlueCare help center, BlueCare tracking support,BlueCare shipping assistance",
+			ogImage: "https://trackcouriers.io/images/bluecare-customer-support-preview.jpg",
+			appName: "BlueCare International Customer Support",
+			priceCurrency: "INR",
+		},
+
+
+
+
 
 	};
 
 
-	// Dynamic handler for any "-customer-support" slug not explicitly listed
-	if (typeof slug === "string" && slug.endsWith("-customer-support")) {
-		const raw = slug.replace(/-customer-support$/, "");
-		const prettyName = (courierName && courierName.length > 0)
-			? courierName
-			: raw.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+	// // Dynamic handler for any "-customer-support" slug not explicitly listed
+	// if (typeof slug === "string" && slug.endsWith("-customer-support")) {
+	// 	const raw = slug.replace(/-customer-support$/, "");
+	// 	const prettyName = (courierName && courierName.length > 0)
+	// 		? courierName
+	// 		: raw.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-		return {
-			title: `${prettyName} Customer Support - Contact Details & Help Center`,
-			description: `Find comprehensive contact information for ${prettyName} customer support, including helpline numbers, email addresses, and office locations. Get help with orders, shipping, and other inquiries quickly and efficiently.`,
-			keywords: `${prettyName} customer support, ${prettyName} customer care number, contact ${prettyName}`,
-			ogTitle: `${prettyName} Customer Support - Contact Details & Help Center`,
-			ogDescription: `Find comprehensive contact information for ${prettyName} customer support, including helpline numbers, email addresses, and office locations.`,
-			ogImage: `https://trackcouriers.io/images/${slug}-preview.jpg`,
-			appName: `${prettyName} Customer Support`,
-			priceCurrency: "INR",
-		};
-	}
+	// 	return {
+	// 		title: `${prettyName} Customer Support - Contact Details & Help Center`,
+	// 		description: `Find comprehensive contact information for ${prettyName} customer support, including helpline numbers, email addresses, and office locations. Get help with orders, shipping, and other inquiries quickly and efficiently.`,
+	// 		keywords: `${prettyName} customer support, ${prettyName} customer care number, contact ${prettyName}`,
+	// 		ogTitle: `${prettyName} Customer Support - Contact Details & Help Center`,
+	// 		ogDescription: `Find comprehensive contact information for ${prettyName} customer support, including helpline numbers, email addresses, and office locations.`,
+	// 		ogImage: `https://trackcouriers.io/images/${slug}-preview.jpg`,
+	// 		appName: `${prettyName} Customer Support`,
+	// 		priceCurrency: "INR",
+	// 	};
+	// }
 
 	// Dynamic handler for any "how-to-*" courier-tracking slug not explicitly listed
-	if (typeof slug === "string" && slug.startsWith("how-to-") && slug.endsWith("-courier-tracking")) {
-		const raw = slug.replace(/^how-to-/, "").replace(/-courier-tracking$/, "");
-		const prettyName = (courierName && courierName.length > 0)
-			? courierName
-			: raw.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+	// if (typeof slug === "string" && slug.startsWith("how-to-") && slug.endsWith("-courier-tracking")) {
+	// 	const raw = slug.replace(/^how-to-/, "").replace(/-courier-tracking$/, "");
+	// 	const prettyName = (courierName && courierName.length > 0)
+	// 		? courierName
+	// 		: raw.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-		return {
-			title: `How to Track ${prettyName} Courier | ${prettyName} Tracking Guide | TrackCouriers.io`,
-			description: `Learn how to track your ${prettyName} shipments with step-by-step instructions, tracking tips, and real-time delivery updates.`,
-			keywords: `how to track ${prettyName}, ${prettyName} tracking guide, ${prettyName} courier tracking, ${prettyName} shipment tracking`,
-			ogTitle: `How to Track ${prettyName} Courier | TrackCouriers.io`,
-			ogDescription: `Follow this guide to track your ${prettyName} shipments, view current delivery status, and stay updated with real-time information.`,
-			ogImage: `https://trackcouriers.io/images/${slug}-preview.jpg`,
-			appName: `${prettyName} Tracking Guide`,
-			priceCurrency: "USD",
-		};
-	}
+	// 	return {
+	// 		title: `How to Track ${prettyName} Courier | ${prettyName} Tracking Guide | TrackCouriers.io`,
+	// 		description: `Learn how to track your ${prettyName} shipments with step-by-step instructions, tracking tips, and real-time delivery updates.`,
+	// 		keywords: `how to track ${prettyName}, ${prettyName} tracking guide, ${prettyName} courier tracking, ${prettyName} shipment tracking`,
+	// 		ogTitle: `How to Track ${prettyName} Courier | TrackCouriers.io`,
+	// 		ogDescription: `Follow this guide to track your ${prettyName} shipments, view current delivery status, and stay updated with real-time information.`,
+	// 		ogImage: `https://trackcouriers.io/images/${slug}-preview.jpg`,
+	// 		appName: `${prettyName} Tracking Guide`,
+	// 		priceCurrency: "USD",
+	// 	};
+	// }
 
-	return seoData[slug] || defaultSeo;
+	
+
+	return seoData[cleanSlug] || defaultSeo;
 };
 
 export const getWebPageSchema = (slug, seo) => ({
