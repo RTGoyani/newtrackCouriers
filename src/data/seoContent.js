@@ -303,7 +303,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Ekart Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"aliexpress-customer-support": {
 			title: "AliExpress Customer Support Details - Contact Information and Helpline Numbers",
 			description: "Find comprehensive contact information for AliExpress customer support, including helpline numbers, email addresses, and office locations. Get help with your orders, shipping, and other inquiries quickly and efficiently.",
@@ -334,7 +333,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Aramex International Customer Support",
 			priceCurrency: "INR",
 		},
-		
 		"bluedart-customer-support": {
 			title: "Blue Dart Tracking - Comprehensive Guide to Track Your Shipments",
 			description: "Easily track your Blue Dart shipments with our detailed guide. Learn how to use your tracking number to get real-time updates on your package's status and ensure smooth delivery.",
@@ -345,7 +343,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Blue Dart International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"canada-post-customer-support": {
 			title: "Canada Post Customer Support - Contact Details & Help Center",
 			description: "Explore comprehensive Canada Post customer support details, including contact information, FAQs, and support resources. Get assistance with tracking, shipping, and more.",
@@ -356,8 +353,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Canada Post International Customer Support",
 			priceCurrency: "INR",
 		},
-
-
 		"delhivery-customer-support": {
 			title: "Delhivery Tracking - Real-Time Shipment Updates and Tracking Guide",
 			description: "Effortlessly track your Delhivery shipments with our detailed guide. Enter your tracking number for real-time updates on your package's status and location, ensuring timely delivery and transparency.",
@@ -368,7 +363,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Delhivery International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"dpd-customer-support": {
 			title: "DPD Customer Support - Contact Details & Help Center",
 			description: "Access comprehensive DPD customer support details, including contact information, FAQs, and support resources. Get assistance with tracking, shipping, and more.",
@@ -379,7 +373,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "DPD International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"dtdc-customer-support": {
 			title: "DTDC Tracking - Easy and Accurate Real-Time Shipment Updates",
 			description: "Effortlessly track your DTDC shipments with our comprehensive guide. Enter your tracking number to receive real-time updates on your package's location and status, ensuring timely deliveries.",
@@ -390,8 +383,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "DTDC International Customer Support",
 			priceCurrency: "INR",
 		},
-
-
 		"ebay-customer-support": {
 			title: "eBay Customer Support - Contact Details & Help Center",
 			description: "Discover eBay customer support details, including contact information, FAQs, and assistance resources for buyers and sellers. Get help with orders, returns, payments, and account inquiries.",
@@ -402,7 +393,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "eBay International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"ecom-customer-support": {
 			title: "Ecom Express Customer Support Details - Contact Information for Efficient Service",
 			description: "Get complete contact details for Ecom Express customer support, including phone numbers, email addresses, and office locations. Ensure your queries and concerns regarding shipping and delivery are addressed promptly.",
@@ -423,7 +413,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Etsy International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"fedex-customer-support": {
 			title: "FedEx India Customer Care Number: 1800 419 4343 (Toll-Free)",
 			description: "Looking for FedEx India support? Get the official 1800 419 4343 toll-free number, email help, and office addresses for Mumbai, Delhi, Bangalore, and Ahmedabad.",
@@ -444,7 +433,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Flipkart International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"4px-customer-support": {
 			title: "4PX Customer Support - Contact Details & Help Center",
 			description: "Explore 4PX customer support details, including contact information, FAQs, and support resources for tracking and shipping inquiries. Get assistance with parcels, deliveries, and more.",
@@ -485,7 +473,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shopee International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"shree-maruti-courier-customer-support": {
 			title: "Shree Maruti Customer Support - Contact Details & Help Center",
 			description: "Explore Shree Maruti customer support details, including contact information, FAQs, and assistance resources for tracking and logistics inquiries. Get help with shipments, deliveries, and more.",
@@ -496,7 +483,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Maruti International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"shree-tirupati-courier-customer-support": {
 			title: "Tirupati Customer Support - Contact Details & Help Center",
 			description: "Discover Tirupati customer support details, including contact information, FAQs, and support resources for tracking and logistics inquiries. Get assistance with shipments, deliveries, and more.",
@@ -507,7 +493,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Tirupati International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"tnt-express-customer-support": {
 			title: "TNT Express Customer Support - Contact Details & Help Center",
 			description: "Explore TNT Express customer support details, including contact information, FAQs, and assistance resources for tracking and shipping inquiries. Get help with parcels, deliveries, and more.",
@@ -518,7 +503,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "TNT Express International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"trackon-customer-support": {
 			title: "Trackon Customer Support - Contact Details & Help Center",
 			description: "Discover Trackon customer support details, including contact information, FAQs, and support resources for tracking and logistics inquiries. Get assistance with shipments, deliveries, and more.",
@@ -529,7 +513,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Trackon International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"xpressbees-customer-support": {
 			title: "Xpressbees Customer Support - Contact Details & Help Center",
 			description: "Explore Xpressbees customer support details, including contact information, FAQs, and assistance resources for tracking and logistics inquiries. Get help with shipments, deliveries, and more.",
@@ -550,8 +533,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Blue Dart International Customer Support",
 			priceCurrency: "INR",
 		},
-
-
 		"how-to-delhivery-courier-tracking": {
 			title: "How to Track Delivery Courier - Easy Guide | TrackCouriers.io",
 			description: "Learn to track your Delivery shipments effortlessly with our step-by-step guide. Stay updated on your package status using TrackCouriers.io for a seamless tracking experience.",
@@ -572,7 +553,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Ekart International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-ecom-courier-tracking": {
 			title: "Ecom Express Courier Tracking: Easy Steps &amp; Updates | TrackCouriers.io",
 			description: "Learn how to track your Ecom Express courier package with ease using TrackCouriers.io. Follow our step-by-step guide for real-time updates and delivery status. Start tracking now!",
@@ -582,7 +562,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Ecom Express International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-dtdc-courier-tracking": {
 			title: "DTDC Courier Tracking: Step-by-Step Guide | TrackCouriers.io",
 			description: "Discover how to track DTDC courier packages effortlessly with TrackCouriers.io. Follow our guide for real-time updates on your DTDC shipments. Start tracking now!",
@@ -592,7 +571,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "DTDC International Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-shree-tirupati-courier-courier-tracking": {
 			title: "Shree Tirupati Courier Tracking | Real-Time Package Status",
 			description: "Track your Shree Tirupati Courier shipments in real-time! Enter your consignment number for instant updates and ensure your delivery arrives on time.",
@@ -602,7 +580,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Tirupati Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-fedex-courier-tracking": {
 			title: "Step-by-Step Guide: How to Track FedEx Shipments | TrackCouriers.io",
 			description: "Stuck with a FedEx package? Learn exactly how to find your tracking number, enter it correctly, and solve common FedEx tracking errors with our 2026 updated guide.",
@@ -612,7 +589,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Tirupati Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-amazon-courier-tracking": {
 			title: "How to Track Amazon shipment | Step-by-Step Guide - TrackCouriers.io",
 			description: "Discover how to track your Amazon courier easily with our step-by-step guide on TrackCouriers.io. Get real-time updates on your Amazon packages and ensure timely delivery.",
@@ -622,7 +598,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Tirupati Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-ups-courier-tracking": {
 			title: "UPS Tracking Guide: Status Meanings & 1Z Number Formats",
 			description: "Master UPS tracking with our 2026 guide. Learn what 1Z tracking numbers mean, decode status updates like 'Exception', and find UPS customer care hubs in India.",
@@ -632,7 +607,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Tirupati Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-canada-post-courier-tracking": {
 			title: "Canada Post Courier Tracking - How to Track Shipments Easily",
 			description: "Learn how to effectively track your Canada Post shipments with our comprehensive guide. Discover the best tools and methods for seamless Canada Post package tracking.",
@@ -642,7 +616,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Tirupati Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-trackon-courier-tracking": {
 			title: "Trackon Courier Tracking Guide - How to Track Your Package",
 			description: "Trackon courier tracking, Trackon package tracking, Trackon shipment status, Trackon delivery tracking, Trackon order tracking.",
@@ -652,7 +625,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Tirupati Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-gati-courier-tracking": {
 			title: "Complete Guide to Gati Courier Tracking - Track Shipments with Ease",
 			description: "Learn how to track Gati courier shipments efficiently with our comprehensive guide. Follow simple steps to monitor your Gati parcels and ensure timely delivery.",
@@ -662,7 +634,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Tirupati Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-ebay-courier-tracking": {
 			title: "Complete Guide: How to Track Your eBay Courier Easily",
 			description: "Discover the easiest way to track your eBay courier with our comprehensive guide. Learn step-by-step instructions to locate and monitor your eBay order shipment.",
@@ -672,7 +643,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree eBay Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-flipkart-courier-tracking": {
 			title: "Flipkart Courier Tracking Guide - How to Track Your Package",
 			description: "Learn how to track your Flipkart courier with our step-by-step guide. Easily monitor your shipment status and stay updated on your delivery progress with Flipkart's tracking system.",
@@ -682,7 +652,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Flipkart Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-aramex-courier-tracking": {
 			title: "Aramex Tracking: How to Track Your Package (2026 Step-by-Step Guide)",
 			description: "Learn how to track your Aramex courier shipment in real-time. Follow our easy guide to check Aramex parcel status, find your waybill, and resolve tracking issues.",
@@ -719,7 +688,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Shree Maruti Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-4px-courier-tracking": {
 			title: "Ultimate Guide to 4PX Courier Tracking - Track Your Shipments Easily",
 			description: "Discover how to effectively use 4PX courier tracking to monitor your shipments. Our detailed guide provides step-by-step instructions for tracking 4PX packages effortlessly.",
@@ -729,7 +697,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "4PX Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-dpd-courier-tracking": {
 			title: "DPD Courier Tracking: Easy Steps & Updates | TrackCouriers.io",
 			description: "Learn how to track your DPD courier package easily with TrackCouriers.io. Follow our step-by-step guide for real-time updates and delivery status. Start tracking now!",
@@ -739,7 +706,6 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "DPD Courier Customer Support",
 			priceCurrency: "INR",
 		},
-
 		"how-to-aliexpress-courier-tracking": {
 			title: "How to Track AliExpress Courier | Step-by-Step Guide - TrackCouriers.io",
 			description: "Track your courier online with our real-time package tracking tool. Enter your tracking number to get the latest delivery updates for Blue Dart, DHL, FedEx, and more.",
@@ -749,20 +715,46 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "AliExpress Courier Customer Support",
 			priceCurrency: "INR",
 		},
-		"how-to-bluecare-express-courier-tracking": {
-			title: "BlueCare Customer Support - Contact Details & Help Center",
-			description: "Discover comprehensive BlueCare customer support details, including contact information, FAQs, and support resources. Get help with tracking, shipping, and more.",
-			keywords: "BlueCare customer support, BlueCare customer care number, BlueCare customer care, contact BlueCare, BlueCare help center, BlueCare tracking support, BlueCare shipping assistance",
-			ogTitle: "BlueCare International Customer Support - Contact Details & Help Center",
-			ogDescription: "BlueCare customer support, BlueCare customer care number, BlueCare customer care, contact BlueCare, BlueCare help center, BlueCare tracking support,BlueCare shipping assistance",
-			ogImage: "https://trackcouriers.io/images/bluecare-customer-support-preview.jpg",
-			appName: "BlueCare International Customer Support",
+		"how-to-dhl-courier-tracking": {
+			title: "DHL Customer Support - Contact Details & Help Center",
+			description: "Discover comprehensive DHL customer support details, including contact information, FAQs, and support resources. Get help with tracking, shipping, and more.",
+			keywords: "DHL customer support, DHL customer care number, DHL customer care, contact DHL, DHL help center, DHL tracking support, DHL shipping assistance",
+			ogTitle: "DHL International Customer Support - Contact Details & Help Center",
+			ogDescription: "DHL customer support, DHL customer care number, DHL customer care, contact DHL, DHL help center, DHL tracking support,DHL shipping assistance",
+			ogImage: "https://trackcouriers.io/images/dhl-customer-support-preview.jpg",
+			appName: "DHL International Customer Support",
 			priceCurrency: "INR",
 		},
-
-
-
-
+		"how-to-indian-post-courier-tracking": {
+			title: "Complete Guide to India Post Courier Tracking: Track Shipments Online",
+			description: "Discover how to track India Post courier shipments easily with our detailed guide. Follow simple steps to monitor your parcels and ensure timely delivery with India Post.",
+			keywords: "India Post courier tracking, track India Post shipments, India Post tracking number, India Post parcel tracking, India Post speed post tracking, India Post EMS tracking, India Post registered post tracking, India Post online tracking, India Post delivery status, how to track India Post courier",
+			ogTitle: "India Post Customer Support - Contact Details & Help Center",
+			ogDescription: "India Post customer support, India Post customer care number, India Post customer care, contact India Post, India Post help center, India Post tracking support, India Post shipping assistance",
+			ogImage: "https://trackcouriers.io/images/indian-post-customer-support-preview.jpg",
+			appName: "India Post Customer Support",
+			priceCurrency: "INR",
+		},
+		"how-to-shopee-courier-tracking": {
+			title: "Easy Guide: How to Track Your Shopee Courier",
+			description: "Learn how to track your Shopee courier effortlessly. Follow our step-by-step guide to find detailed tracking information for your Shopee orders.",
+			keywords: "Shopee courier tracking, track Shopee order, Shopee shipment tracking, shipment tracking",
+			ogTitle: "Shopee Customer Support - Contact Details & Help Center",
+			ogDescription: "Shopee customer support, Shopee customer care number, Shopee customer care, contact Shopee, Shopee help center, Shopee tracking support, Shopee shipping assistance",
+			ogImage: "https://trackcouriers.io/images/shopee-customer-support-preview.jpg",
+			appName: "Shopee Customer Support",
+			priceCurrency: "INR",
+		},
+		"how-to-bluecare-express-courier-tracking": {
+			title: "Bluecare Express Courier Tracking - How to Track Shipments Easily",
+			description: "Learn how to effectively track your Bluecare Express shipments with our comprehensive guide. Discover the best tools and methods for seamless Bluecare Express package tracking.",
+			keywords: "Bluecare Express tracking, track Bluecare Express shipments, Bluecare Express parcel tracking",
+			ogTitle: "Bluecare Express Customer Support - Contact Details & Help Center",
+			ogDescription: "Bluecare Express customer support, Bluecare Express customer care number, Bluecare Express customer care, contact Bluecare Express, Bluecare Express help center, Bluecare Express tracking support, Bluecare Express shipping assistance",
+			ogImage: "https://trackcouriers.io/images/bluecare-express-customer-support-preview.jpg",
+			appName: "Bluecare Express Customer Support",
+			priceCurrency: "INR",
+		},
 
 	};
 
