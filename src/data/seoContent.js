@@ -293,6 +293,8 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Amazon International Courier Tracker",
 			priceCurrency: "INR",
 		},
+
+		
 		"ekart-customer-support": {
 			title: "Ekart Customer Support - Contact Details & Help Center",
 			description: "Discover Ekart customer support details, including contact information, FAQs, and support resources for tracking and delivery inquiries. Get assistance with orders, shipments, and more.",
@@ -523,6 +525,38 @@ export const getSeoContent = (slug, courierName) => {
 			appName: "Xpressbees International Customer Support",
 			priceCurrency: "INR",
 		},
+		"dhl-customer-support": {
+			title: "DHL Customer Support Details - Contact Information for Quick Assistance",
+			description: "Find all the contact information you need for DHL customer support, including phone numbers, email addresses, and office locations. Get quick assistance with tracking, shipping, and more to ensure smooth logistics operations.",
+			keywords: "DHL customer support, DHL customer care number, DHL customer care, contact DHL",
+			ogTitle: "DHL International Customer Support - Contact Details & Help Center",
+			ogDescription: "Find comprehensive contact information for DHL International customer support, including helpline numbers, email addresses, and office locations.",
+			ogImage: "https://trackcouriers.io/images/dhl-customer-support-preview.jpg",
+			appName: "DHL International Customer Support",
+			priceCurrency: "INR",
+		},
+		"ups-customer-support": {
+			title: "UPS Customer Care Number: USA & Global Support (2026)",
+			description: "Looking for UPS customer care? Get official toll-free numbers for USA (1-800-742-5877), UK, and India. Contact UPS support for tracking, claims, and freight help. Contact UPS support for tracking, claims, and freight.",
+			keywords: "UPS customer support, UPS customer care number, UPS customer care, contact UPS",
+			ogTitle: "UPS International Customer Support - Contact Details & Help Center",
+			ogDescription: "Find comprehensive contact information for UPS International customer support, including helpline numbers, email addresses, and office locations.",
+			ogImage: "https://trackcouriers.io/images/ups-customer-support-preview.jpg",
+			appName: "UPS International Customer Support",
+			priceCurrency: "INR",
+		},
+		"bluecare-express-customer-support": {
+			title: "BlueCare Customer Support - Contact Details & Help Center",
+			description: "Discover comprehensive BlueCare customer support details, including contact information, FAQs, and support resources. Get help with tracking, shipping, and more.",
+			keywords: "BlueCare customer support, BlueCare customer care number, BlueCare customer care, contact BlueCare, BlueCare help center, BlueCare tracking support,BlueCare shipping assistance",
+			ogTitle: "BlueCare Express International Customer Support - Contact Details & Help Center",
+			ogDescription: "Find comprehensive contact information for BlueCare Express International customer support, including helpline numbers, email addresses, and office locations.",
+			ogImage: "https://trackcouriers.io/images/bluecare-express-customer-support-preview.jpg",
+			appName: "BlueCare Express International Customer Support",
+			priceCurrency: "INR",
+		},
+
+
 		"how-to-bluedart-courier-tracking": {
 			title: "How to Track Blue Dart Courier - Easy Guide | TrackCouriers.io",
 			description: "Learn to track your Blue Dart shipments effortlessly with our step-by-step guide. Stay updated on your package status using TrackCouriers.io for a seamless tracking experience.",
