@@ -288,7 +288,7 @@ For assistance with shipment tracking, or general questions, you can reach out t
 				{ city: "USA", phone: "+1 408-376-7400", address: "eBay Inc. Headquarters. 2025 Hamilton Avenue, San Jose, California, , USA - 95125" }
 			]
 		},
-		"tnt-express-customer-support": {
+		"tntexpress-customer-support": {
 			title: "TNT Express Customer Support",
 			about: "TNT Express is a global courier and international deliveries company, now a subsidiary of FedEx. They provide a wide range of express delivery services, ensuring parcels and freight are delivered safely and on time around the world.\n\nFor tracking, shipping inquiries, and customer service, please visit TNT's official website or the FedEx tracking portals.",
 			contacts: [
